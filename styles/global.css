@@ -27,6 +27,12 @@ blockquote {
 
 a {
   color: inherit;
+  font-family: inherit;
+}
+address {
+  color: inherit;
+  font-family: inherit;
+  font-style: inherit;
 }
 
 img {
