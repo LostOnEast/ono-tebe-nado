@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
     <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
     <header class="header">
-      <div class="header__menu">
+      <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit"><a href="">главная</a></li>
           <li class="header__links-list-item"><a href="">посмотреть лоты</a></li>
           <li class="header__links-list-item"><a href="">об аукционе</a></li>
         </ul>
-      </div>
+      </nav>
       <div class="header__link">
         <div class="header__logo">
           <img class="header__logo-image" src="./images/logo-black.svg" alt="Оно тебе надо">
@@ -35,7 +36,25 @@
       
     </header>
     <main>
-      <section class="cover"></section>
+      
+        <section class="cover">
+          <div class="overlay"></div>
+          <h1 class="cover__title">
+            <span class="aligned-text">оно</span>
+            <span class="aligned-text_center">тебе</span>
+            <span class="aligned-text_right">надо</span>
+          </h1>
+          <div class="cover__description">
+            <h2 class="cover__description-text">Аукцион вещей, вкоторые никто не верил</h2>
+            <button class="bet-button">Сделать ставку</button>
+          </div>
+          
+        </section>
+      
+        
+        
+      </div>
+      
       <section class="lots"></section>
       <section class="about"></section>
     </main>
