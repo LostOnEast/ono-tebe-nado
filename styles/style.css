@@ -1,5 +1,4 @@
 .header {
-
   display: grid;
   grid-template-columns: 3fr 1fr 1fr 2fr;
   align-items: center;
@@ -18,15 +17,11 @@
 }
 
 .header__link {
-
   justify-self: center;
-
 }
-
 .address {
   display: block;
-
-  margin-left: 48px;
+   margin-left: 48px;
   font-family: inherit;
   font-size: 18px;
   line-height: 1.45em;
@@ -44,16 +39,13 @@
 
 .header__links-list-item_no-bullit {
   list-style: none;
-
 }
 
 .header__links-list-item_no-bullit a {
-
   text-decoration: none;
 }
 
 .header__links-list-item {
-
   margin-right: 35px;
 }
 
@@ -99,6 +91,7 @@
 
 .aligned-text_center {
   align-self: center;
+  letter-spacing: 0.3em;
 }
 
 .aligned-text_right {
@@ -112,9 +105,7 @@
   display: flex;
   margin: 0px 0px 52px 0px;
   padding: 0px 42px 0px 0px;
-  /* font-family: Raleway; */
   text-transform: uppercase;
-  /* justify-content: flex-end; */
 }
 
 .cover__description-text {
@@ -128,12 +119,6 @@
   text-align: center;
   word-spacing: 24px;
 }
-
-.aligned-text_center {
-  /* padding-right: 0px; */
-  letter-spacing: 0.3em;
-}
-
 .last_letter {
   margin-right: 0.3em;
   margin-left: 0.3em;
@@ -281,12 +266,8 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* justify-content: center; */
   margin-top: 181px;
   font-size: 18px;
-  /* align-content: stretch; */
-  /* align-items: center; */
-  /* justify-items: stretch; */
 }
 
 .footer__menu {
@@ -294,7 +275,6 @@
   justify-content: center;
   align-content: space-around;
   text-align: center;
-  /* align-items: baseline; */
 }
 
 .footer__menu-list {
