@@ -27,15 +27,19 @@ blockquote {
 
 a {
   color: inherit;
-  font-family: inherit;
   text-underline-offset: 4px;
 }
 address {
   color: inherit;
-  font-family: inherit;
   font-style: inherit;
 }
 
 img {
   width: 100%;
+}
+button {
+  all: unset;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
 }
