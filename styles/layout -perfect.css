@@ -256,32 +256,27 @@ margin-right: 45px;
   /* letter-spacing: -0.00em; */
 }
 .footer{
-  font-size: 18px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   /* justify-content: center; */
-  margin-top: 181px;
+  margin-top: 154px;
   /* align-content: stretch; */
-  /* align-items: center; */
+  align-items: center;
   /* justify-items: stretch; */
 }
 .footer__menu{
   display: flex;
-  text-align: center;
-  align-content: space-around;
-  justify-content: center;
-  /* align-items: baseline; */
+  align-content: stretch;
+  justify-content: space-evenly;
 }
 .footer__menu-list{
-  padding-left: 0;
-  margin-left: 0;
   list-style-type: none;
-  display: inline-block; 
 }
 .footer__social-list{
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
+
 }
 .footer__social-list-item{
   height: 50px;
