@@ -21,8 +21,7 @@
 }
 .address {
   display: block;
-   margin-left: 48px;
-  font-family: inherit;
+  margin-left: 48px;
   font-size: 18px;
   line-height: 1.45em;
 }
