@@ -112,7 +112,7 @@ word-spacing: 19px;
 .separate_letter {
   letter-spacing: 60px;
 }
-.empty_space_letter{
+.empty_space_letter {
   letter-spacing:unset;
 }
 
